@@ -1,0 +1,36 @@
+# === Rust / Cargo ===
+# Compiled files and build artifacts
+/target/
+
+# Backup and temp files created by rustc, Cargo, or IDEs
+**/*.rs.bk
+*.pdb
+
+# === Logs & Diagnostics ===
+*.log
+
+# === Editor / IDE files ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (CLion, IntelliJ, RustRover)
+.idea/
+
+# === OS generated files ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# === Build or dependency management ===
+# Lock file can be included for binaries but not for libraries
+# (if you're making a *library*, consider ignoring Cargo.lock)
+# Cargo.lock
+
+# === Miscellaneous ===
+# Temporary files from testing or coverage tools
+*.profraw
+coverage/
